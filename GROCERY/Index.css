@@ -64,7 +64,7 @@ header {
   column-gap: 0.5rem;
 }
 .logo .bx {
-  font-size: 24px;
+  font-size: 34px;
   color: var(--orange-color);
 }
 .navbar {
@@ -83,4 +83,13 @@ header {
   border-radius: 5px;
   color: var(--bg-color);
   transition: 0.5s;
+}
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+.section {
+  padding: 4.5rem 0 1.5rem;
 }

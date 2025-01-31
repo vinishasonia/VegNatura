@@ -10,11 +10,16 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    />
   </head>
   <body>
     <header>
       <!-- navigation bar  -->
-      <a href="#" class="logo"><i class="bx bx-basket">Deligacy Organic</i></a>
+      <a href="#" class="logo"><i class="bx bx-basket">VegNatura </i></a>
       <div class="bx bx-menu" id="bx-menu-icon"></div>
       <ul class="navbar">
         <li><a href="#home" class="home-active">HOME</a></li>
@@ -29,5 +34,60 @@
         <i class="bx bx-caret-down"></i>
       </div>
     </header>
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <!-- slide 1 -->
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy<br />
+              the best healthy<br />chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bx-right-arrow-alt"></i
+            ></a>
+          </div>
+          <img src="../img/home1.png" alt="" />
+        </div>
+
+        <!-- slide 2 -->
+
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy<br />
+              the best healthy<br />chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bx-right-arrow-alt"></i
+            ></a>
+          </div>
+          <img src="../img/home2.png" alt="" />
+        </div>
+        <!-- slide 3 -->
+        <div class="swiper-slide container">
+          <div class="home-text">
+            <span>We are Delicacy</span>
+            <h1>
+              Choose delicacy<br />
+              the best healthy<br />chicken salad
+            </h1>
+            <a href="#" class="btn"
+              >Shop Now<i class="bx bx-right-arrow-alt"></i
+            ></a>
+          </div>
+          <img src="../img/home3.png" alt="" />
+        </div>
+
+        <!-- end -->
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
